@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Issue Tracker</title>
+    </head>
+    <body>
+        <form onsubmit="create(event)">
+            <h1>Submit a new Issue</h1>
+            <input type="text" id="title" placeholder="Title">
+            <br>
+            <input type="text" id="text" placeholder="Text">
+            <br>
+            <input type="text" id="author" placeholder="Author">
+            <br>
+            <input type="text" id="asignedTo" placeholder="Asigned to">
+            <br>
+            <input type="text" id="status" placeholder="Status">
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+        <br><br>
+        <div id="view"></div>
+        <script src="app.js"></script>
+    </body>
+</html>
