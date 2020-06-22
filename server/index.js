@@ -10,7 +10,7 @@ app.use(express.json())
 const port = 3000
 
 mongoose.connect(
-    "mongodb+srv://me:1234@cluster0-0um4c.mongodb.net/test?retryWrites=true&w=majority",
+    "",
     { useUnifiedTopology: true }, 
     () => {
         console.log("C O N N E C T E D");
